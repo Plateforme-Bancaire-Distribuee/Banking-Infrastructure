@@ -1,5 +1,6 @@
-package com.banking.gateway.lb;
+package com.banking.gateway.config;
 
+import com.banking.gateway.lb.WeightedRoundRobinLB;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClient;
 import org.springframework.cloud.loadbalancer.core.ServiceInstanceListSupplier;
